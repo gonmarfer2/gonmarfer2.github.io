@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    /* CSS HEX */
+    --papaya-whip: #fff3dcff;
+    --dark-moss-green: #606c38ff;
+    --emerald: #2ece90ff;
+    --pakistan-green: #283618ff;
+    --english-violet: #443453ff;
+    --white: #ffffffff;
+}
+
+@font-face  {
+    font-family: 'SourcePro';
+    src: url('./assets/typographies/sourcepro.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--papaya-whip);
+}

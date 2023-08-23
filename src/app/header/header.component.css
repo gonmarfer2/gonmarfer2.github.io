@@ -1,0 +1,28 @@
+.app-header {
+    display: flex;
+    margin: 8px 1em;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'SourcePro', 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.app-header .logo {
+    color: var(--english-violet);
+}
+
+.link-bar {
+    display: flex;
+}
+
+#id-github-logo,
+#id-itchio-logo {
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+
+#id-github-logo:hover,
+#id-itchio-logo:hover {
+    transition-duration: 250ms;
+    fill: var(--emerald);
+}
