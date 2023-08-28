@@ -1,0 +1,82 @@
+<h1 class="about-title">
+    <span>Sobre mí</span>
+</h1>
+
+<div class="about-body">
+    <div class="column-photo">
+        <div class="row justify-content-center">
+            <div class="myphoto-div">
+                <img id="id-myphoto" src="../../assets/pictures/PerfilAlhambra43.png" alt="Picture of me">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <a id="id-cv-btn" href="../../assets/docs/2023_08_21.pdf" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer-fill" viewBox="0 0 16 16">
+                    <path d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z"/>
+                    <path d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                </svg>
+                &nbsp;
+                <span>Ver CV</span>
+            </a>
+        </div>
+    </div>
+    <div class="column-text">
+        <div class="row">
+            <div class="main-text">
+                <span>Soy un sevillano graduado en Ingeniería Informática del Software, con un gran
+                    entusiasmo por aprender cada día un poco más que el anterior. También
+                    poseo un gran sentido de la responsabilidad y aptitudes para
+                    adaptarme a cualquier situación.
+                </span>
+                <br>
+                <span>
+                    Mis especialidades son la Ingeniería de Requisitos, el desarrollo web y
+                    la Inteligencia Artificial.
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Idiomas</h2>
+        </div>
+        <div class="row">
+            <div class="languages-div">
+                <div class="col-language">
+                    <img src="../../assets/pictures/languages/icons8-spain-48.png" alt="Spain's flag">
+                    <span>Nativo</span>
+                </div>
+                <div class="col-language">
+                    <img src="../../assets/pictures/languages/icons8-france-48.png" alt="Spain's flag">
+                    <span>Conocimientos b&aacute;sicos</span>
+                </div>
+                <div class="col-language">
+                    <img src="../../assets/pictures/languages/icons8-great-britain-48.png" alt="Spain's flag">
+                    <span>C1 (Cambridge, mención de C2)</span>
+                </div>
+                <div class="col-language">
+                    <img src="../../assets/pictures/languages/icons8-sweden-48.png" alt="Spain's flag">
+                    <span>Conocimientos b&aacute;sicos</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Habilidades</h2>
+        </div>
+        <div class="row">
+            <app-accordion title="Paradigmas de programación" [items]="paradigms"></app-accordion>
+            <app-accordion title="Sistemas operativos" [items]="os"></app-accordion>
+            <app-accordion title="Sistemas gestores de bases de datos" [items]="db"></app-accordion>
+            <app-accordion title="Metodologías de desarrollo software y gestión de proyectos" [items]="methods"></app-accordion>
+            <app-accordion title="Diseño gráfico y diseño 3D" [items]="design"></app-accordion>
+        </div>
+    </div>
+
+    <div class="column-experience">
+        <div class="row">
+            <h2>Experiencia</h2>
+        </div>
+        <div class="row">
+            <app-experience-history *ngFor="let entry of entries" [entry]="entry"></app-experience-history>
+        </div>
+    </div>
+</div>

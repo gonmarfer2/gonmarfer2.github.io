@@ -1,0 +1,28 @@
+.history-entry {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 24px;
+}
+
+.rhombus {
+    width: 32px;
+    height: 32px;
+}
+
+.history-content {
+    width: 100%;
+    border: solid var(--old-rose);
+    border-width: 3px 0 3px 0;
+}
+
+.history-details-list {
+    list-style-type: none;
+    padding: 0 0 0 4%;
+    
+    color: var(--hookers-green);
+    font-family: 'OldStandard', 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 16px;
+}
