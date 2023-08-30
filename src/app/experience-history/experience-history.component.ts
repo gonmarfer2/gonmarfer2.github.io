@@ -9,6 +9,7 @@ export class ExperienceHistoryComponent {
   @Input() entry = {
     datePlace: '',
     description: '',
-    company: ''};
+    company: ''
+  };
 
 }

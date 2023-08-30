@@ -1,0 +1,9 @@
+<h1 class="projects-title">
+    <img src="../../assets/pictures/projects-header-squares.svg" alt="Header Left Decoration">
+    <span>Proyectos</span>
+    <img src="../../assets/pictures/projects-header-squares-right.svg" alt="Header Right Decoration">
+</h1>
+
+<div class="projects-body">
+    <app-project-window *ngFor="let project of projects" [project]="project"></app-project-window>
+</div>

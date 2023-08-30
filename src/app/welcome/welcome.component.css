@@ -18,8 +18,8 @@
 
     background-color: var(--alabaster);
 
-    border-top: 3px solid var(--hookers-green);
-    border-bottom: 3px solid var(--hookers-green);
+    border: solid var(--hookers-green);
+    border-width: 5px 0;
 }
 
 .main-title > span {
