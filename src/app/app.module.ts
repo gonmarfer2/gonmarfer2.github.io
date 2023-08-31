@@ -10,6 +10,8 @@ import { AccordionComponent } from './accordion/accordion.component';
 import { ExperienceHistoryComponent } from './experience-history/experience-history.component';
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { ProjectWindowComponent } from './project-window/project-window.component';
+import { DesignsPageComponent } from './designs-page/designs-page.component';
+import { DesignFrameComponent } from './design-frame/design-frame.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ProjectWindowComponent } from './project-window/project-window.componen
     AccordionComponent,
     ExperienceHistoryComponent,
     ProjectsPageComponent,
-    ProjectWindowComponent
+    ProjectWindowComponent,
+    DesignsPageComponent,
+    DesignFrameComponent
   ],
   imports: [
     BrowserModule,

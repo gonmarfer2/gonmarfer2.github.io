@@ -1,0 +1,14 @@
+<h1 class="designs-title">
+    <img id="id-left-banner" src="../../assets/pictures/designs-header.svg" alt="Header Decoration">
+    <span>Dise&ntilde;os</span>
+    <img id="id-right-banner" src="../../assets/pictures/designs-header.svg" alt="Header Decoration">
+</h1>
+
+<div id="id-designs-2d-div" class="designs-body">
+    <h2>Dise&ntilde;os 2D</h2>
+    <app-design-frame *ngFor="let design of designs" [design]="design"></app-design-frame>
+</div>
+<div id="id-designs-3d-div" class="designs-body">
+    <h2>Dise&ntilde;os 3D</h2>
+    <app-design-frame *ngFor="let design of designs3D" [design]="design"></app-design-frame>
+</div>
