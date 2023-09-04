@@ -1,0 +1,4 @@
+1. ng build --output-path docs --base-href /gonmarfer2.github.io/
+2. En el index.html generado, cambiar:
+    2.1 base href por <base href="./">
+    2.2 Quitar todos los stylesheet y type module

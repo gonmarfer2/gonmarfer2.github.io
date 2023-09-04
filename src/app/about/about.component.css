@@ -78,7 +78,7 @@
 
 #id-myphoto {
     width: 100%;
-    transform: rotate(-10deg) scale(0.75);
+    transform: rotate(-10deg);
     border: 10px solid white;
     box-sizing: border-box;
     box-shadow: 0 5px 4px 0 #00000088;
@@ -141,10 +141,6 @@ app-accordion {
         width: 100%;
     }
 
-    .column-photo .row {
-        margin-top: 12px;
-    }
-    
     .column-text {
         margin: 0 4%;
     }
@@ -157,4 +153,14 @@ app-accordion {
         margin-top: 24px;
     }
 
+}
+
+@media screen and (max-width:480px) {
+    .column-photo .row {
+        margin-top: 12px;
+    }
+    
+    #id-myphoto {
+        transform: rotate(-10deg) scale(0.75);
+    }
 }
