@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
+  styleUrls: ['./about.component.css','./about2.component.css']
 })
 export class AboutComponent {
   paradigms = ['Python (Django, Jupyter, SageMath...)','HTML','CSS','JavaScript','C','Java (SpringBoot)', 'Scala (Spark)'];

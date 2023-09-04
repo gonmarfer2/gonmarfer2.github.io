@@ -84,52 +84,6 @@
     box-shadow: 0 5px 4px 0 #00000088;
 }
 
-a#id-cv-btn {
-    width: 70%;
-    max-width: 400px;
-    height: 72px;
-    background-color: var(--hookers-green);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    text-decoration: none;
-    color: var(--alabaster);
-
-    transform: skewX(-15deg);
-    transition-duration: 500ms;
-}
-
-a#id-cv-btn > span {
-    font-family: 'OldStandard', 'Times New Roman', Times, serif;
-    font-weight: normal;
-    font-size: 20px;
-    transform: skewX(15deg);
-}
-
-a#id-cv-btn > svg {
-    fill: var(--alabaster);
-    width: 24px;
-    height: 24px;
-    transform: skewX(15deg);
-}
-
-a#id-cv-btn:hover {
-    transform: scale(1.1,1.1) skewX(-15deg);
-    transition-duration: 500ms;
-    box-shadow: 0 5px 4px 0 var(--dun);
-}
-
-a#id-cv-btn:active {
-    background-color: var(--dun);
-    color: var(--hookers-green);
-}
-
-a#id-cv-btn:active > svg {
-    fill: var(--hookers-green);
-}
-
 .main-text {
     width: 100%;
     min-height: 48px;
@@ -199,23 +153,4 @@ app-accordion {
         margin-top: 24px;
     }
 
-}
-
-.experience-shortcut {
-    margin-left: 4%;
-
-    text-decoration: none;
-    font-family: 'SourcePro', 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 32px;
-    color: var(--old-rose);
-}
-
-.column-experience {
-    width: 100%;
-    margin: 48px 4% 0 4%;
-}
-
-app-experience-history {
-    width: 100%;
 }
