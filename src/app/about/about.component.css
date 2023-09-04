@@ -78,7 +78,7 @@
 
 #id-myphoto {
     width: 100%;
-    transform: rotate(-10deg);
+    transform: rotate(-10deg) scale(0.75);
     border: 10px solid white;
     box-sizing: border-box;
     box-shadow: 0 5px 4px 0 #00000088;
@@ -139,6 +139,10 @@ app-accordion {
     .column-photo,
     .column-text {
         width: 100%;
+    }
+
+    .column-photo .row {
+        margin-top: 12px;
     }
     
     .column-text {

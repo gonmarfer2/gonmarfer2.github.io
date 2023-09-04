@@ -22,15 +22,27 @@
     margin: 0 4%;
 }
 
-.designs-title > img {
-    width: 92%;
+#id-left-header-banner,
+#id-right-header-banner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    background-image: url(../../assets/pictures/designs-header.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
-#id-left-banner {
+#id-left-header-banner {
+    width: 96%;
     margin-left: 4%;
+    margin-right: 0;
 }
 
-#id-right-banner {
+#id-right-header-banner {
+    width: 96%;
+    margin-left: 0;
     margin-right: 4%;
 }
 
@@ -66,10 +78,6 @@ h2 {
 }
 
 @media screen and (max-width:1080px) {
-    .designs-title > img {
-        width: 96%;
-        margin: 0 2%;
-    }
 
     app-design-frame {
         width: 47.5%;
@@ -83,9 +91,10 @@ h2 {
 }
 
 @media screen and (max-width:720px) {
-    .designs-title > img {
-        width: 96%;
-        margin: 0 2%;
+    #id-left-header-banner,
+    #id-right-header-banner {
+        height: 50%;
+        background-size: cover;
     }
 
     .designs-body {

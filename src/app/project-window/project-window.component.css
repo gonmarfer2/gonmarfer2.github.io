@@ -95,3 +95,20 @@
         margin: 0 4% 2% 4%;
     }
 }
+
+@media screen and (max-width: 520px) {
+    .picture-frame {
+        width: 375px;
+        height: 280px;
+    }
+    
+    .picture-frame-sizing {
+        width: 280px;
+        height: 210px;
+        margin-top: 14px;
+    }
+
+    .picture {
+        object-fit: cover;
+    }
+}

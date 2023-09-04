@@ -7,13 +7,13 @@ import { Component } from '@angular/core';
 })
 export class DesignsPageComponent {
   designs = [
-    {src:'../../assets/pictures/designs/BarquetaYGloboIslaMagica_Sueños.png',
+    {src:'../../assets/pictures/designs/BarquetaYGloboIslaMagica_Sueños.jpg',
     title:'Futuro pasado',
     date:'2023'},
     {src:'../../assets/pictures/designs/original1.png',
     title:'Bloqueo del diseñador',
     date:'2023'},
-    {src:'../../assets/pictures/designs/LaTorreJojo.png',
+    {src:'../../assets/pictures/designs/LaTorreJojo.jpg',
     title:'Torre Sevilla',
     date:'2023'},
     {src:'../../assets/pictures/designs/A.png',
@@ -27,14 +27,17 @@ export class DesignsPageComponent {
     date:'2021'},
   ];
   designs3D = [
+    {src:'../../assets/pictures/designs/3d/Saliresaxum.jpg',
+    title:'Saliresáxum (Make a Dinosaur Jam 4)',
+    date:'2023'},
     {src:'../../assets/pictures/designs/3d/Llave.gif',
     title:'Llave vieja escuela',
     date:'2022'},
     {src:'../../assets/pictures/designs/3d/Portada.png',
-    title:'Gomisaurio',
+    title:'Gomisaurio (Make a Dinosaur Jam 3)',
     date:'2022'},
     {src:'../../assets/pictures/designs/3d/Fragasaurio.png',
-    title:'Fragasaurio',
+    title:'Fragasaurio (Make a Dinosaur Jam 2)',
     date:'2021'},
     {src:'../../assets/pictures/designs/3d/sueño2.png',
     title:'Renderizado de un sueño 2',
