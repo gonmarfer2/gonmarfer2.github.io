@@ -6,7 +6,7 @@
     <div class="column-photo">
         <div class="row justify-content-center">
             <div class="myphoto-div">
-                <img id="id-myphoto" src="../../assets/pictures/PerfilAlhambra43.png" alt="Picture of me">
+                <img id="id-myphoto" src="../../assets/pictures/PerfilAlhambra43.jpg" alt="Picture of me">
             </div>
         </div>
         <div class="row justify-content-center">
@@ -45,15 +45,15 @@
                     <span>Nativo</span>
                 </div>
                 <div class="col-language">
-                    <img src="../../assets/pictures/languages/icons8-france-48.png" alt="Spain's flag">
+                    <img src="../../assets/pictures/languages/icons8-france-48.png" alt="France's flag">
                     <span>Conocimientos b&aacute;sicos</span>
                 </div>
                 <div class="col-language">
-                    <img src="../../assets/pictures/languages/icons8-great-britain-48.png" alt="Spain's flag">
+                    <img src="../../assets/pictures/languages/icons8-great-britain-48.png" alt="GB's flag">
                     <span>C1 (Cambridge, mención de C2)</span>
                 </div>
                 <div class="col-language">
-                    <img src="../../assets/pictures/languages/icons8-sweden-48.png" alt="Spain's flag">
+                    <img src="../../assets/pictures/languages/icons8-sweden-48.png" alt="Sweden's flag">
                     <span>Conocimientos b&aacute;sicos</span>
                 </div>
             </div>
@@ -71,12 +71,22 @@
         </div>
     </div>
 
-    <div class="column-experience">
+    <div id="id-studies" class="column-experience">
+        <div class="row">
+            <h2>Estudios</h2>
+        </div>
+        <div class="row">
+            <app-experience-history *ngFor="let study of studies" [entry]="study"></app-experience-history>
+        </div>
+    </div>
+    
+    <div id="id-experience" class="column-experience">
         <div class="row">
             <h2>Experiencia</h2>
         </div>
         <div class="row">
-            <app-experience-history *ngFor="let entry of entries" [entry]="entry"></app-experience-history>
+            <app-experience-history *ngFor="let exp of experiences" [entry]="exp"></app-experience-history>
         </div>
     </div>
+
 </div>

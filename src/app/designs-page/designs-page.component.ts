@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class DesignsPageComponent {
   designs = [
+    {src:'../../assets/pictures/designs/cartelVela.jpg',
+    title:'Cartel Velá Pino Montano 2023',
+    date:'2023'},
     {src:'../../assets/pictures/designs/BarquetaYGloboIslaMagica_Sueños.jpg',
     title:'Futuro pasado',
     date:'2023'},

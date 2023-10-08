@@ -59,13 +59,13 @@
 }
 
 .project-title > span {
-    font-family: 'OldStandard', 'Courier New', Courier, monospace;
+    font-family: 'OldStandard', 'Times New Roman', Times, serif;
     font-size: 20px;
     color: var(--alabaster);
 }
 
 .project-description {
-    font-family: 'OldStandard', 'Courier New', Courier, monospace;
+    font-family: 'OldStandard', 'Times New Roman', Times, serif;
     font-size: 18px;
     color: var(--hookers-green);
 

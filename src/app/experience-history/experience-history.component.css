@@ -6,15 +6,26 @@
     margin-bottom: 24px;
 }
 
+.history-entry:hover .history-content {
+    background-color: var(--dun);
+}
+
+.history-entry:hover .rhombus {
+    transform: rotate(90deg);
+    transition-duration: 0.4s;
+}
+
 .rhombus {
     width: 32px;
     height: 32px;
+    transition-duration: 0.4s;
 }
 
 .history-content {
     width: 100%;
     border: solid var(--old-rose);
     border-width: 3px 0 3px 0;
+    transition-duration: 0.4s;
 }
 
 .history-details-list {

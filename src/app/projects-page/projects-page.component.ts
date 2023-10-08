@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ProjectsPageComponent {
   projects = [
-    {pictureUrl:'../../assets/pictures/reinicias00.png',
+    {pictureUrl:'../../assets/pictures/reinicias00.jpg',
     title:'Fundación Reinicias (2023)',
     description:`Mi Trabajo de Fin de Grado lo hice
     en colaboración con la Fundación Reinicias de Granada.
@@ -16,7 +16,7 @@ export class ProjectsPageComponent {
     otra para los pacientes, y una última para ofrecer
     cursos en línea. La aplicación se programó con el
     framework Django (Python).`},
-    {pictureUrl:'../../assets/pictures/cfb00.png',
+    {pictureUrl:'../../assets/pictures/cfb00.jpg',
     title:'CFB API (Continuous Feedback) (2023)',
     description:`Un proyecto para la asignatura
     Evolución y Gestión de la Configuración de la
@@ -24,20 +24,20 @@ export class ProjectsPageComponent {
     ofrece una manera sencilla
     de enlazar un repositorio de GitHub con un servidor
     de Discord.`},
-    {pictureUrl:'../../assets/pictures/acmewedding00.png',
+    {pictureUrl:'../../assets/pictures/acmewedding00.jpg',
     title:'ACME Wedding (2023)',
     description:`Este comercio online (ficticio) fue uno
     de los últimos proyectos en grupo que realicé en la
     Universidad. Un equipo de cinco personas desarrollamos
     esta web para una tienda de accesorios de boda. Para ello,
     hicimos uso del framework Django (Python)`},
-    {pictureUrl:'../../assets/pictures/petris00.png',
+    {pictureUrl:'../../assets/pictures/petris00.jpg',
     title:'Petris (2022)',
     description:`Petris es uno de los primeros proyectos
     en grupo que he realizado, en el que un grupo de
     6 personas convertimos un juego de mesa en un juego
     en línea. Este proyecto se hizo en el framework Spring Boot (Java).`},
-    {pictureUrl:'../../assets/pictures/panaLeria00.png',
+    {pictureUrl:'../../assets/pictures/panaLeria00.jpg',
     title:'panaLeria (2021)',
     description:`Mi primer proyecto de la carrera 
     fue una red social llamada panaLeria. Se trata de un 
