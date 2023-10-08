@@ -45,7 +45,8 @@
 
 #id-github-logo,
 #id-itchio-logo,
-#id-envelope-fill-logo {
+#id-envelope-fill-logo,
+#id-linkedin-logo {
     width: 44px;
 
     margin: 0;
@@ -55,7 +56,8 @@
 
 #id-github-logo:hover,
 #id-itchio-logo:hover,
-#id-envelope-fill-logo:hover {
+#id-envelope-fill-logo:hover,
+#id-linkedin-logo:hover {
     transition-duration: 250ms;
     fill: var(--dun);
 }

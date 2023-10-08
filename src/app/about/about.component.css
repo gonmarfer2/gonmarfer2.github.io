@@ -129,6 +129,10 @@ app-accordion {
         width: 100%;
     }
 
+    .column-photo .row {
+        margin-top: 24px;
+    }
+
     .column-text {
         margin: 0 4%;
     }
@@ -144,10 +148,6 @@ app-accordion {
 }
 
 @media screen and (max-width:480px) {
-    .column-photo .row {
-        margin-top: 12px;
-    }
-    
     #id-myphoto {
         transform: rotate(-10deg) scale(0.75);
     }
