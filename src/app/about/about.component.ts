@@ -22,14 +22,11 @@ export class AboutComponent {
     {datePlace: '10/2023 – Actual — Sevilla, España',
     description: 'Máster Universitario en Lógica, Computación e Inteligencia Artificial',
     company: 'Universidad de Sevilla'},
-    {datePlace: '10/2023 – Actual — Sevilla, España',
-    description: 'Beca de formación en informática en la Biblioteca de la Universidad de Sevilla',
-    company: 'Biblioteca de la Universidad de Sevilla'},
   ]
 
   experiences = [
     {datePlace: '02/2023 – 07/2023 — Sevilla, España',
-    description: 'Prácticas extracurriculares ',
+    description: 'Big Data',
     company: 'Ayesa'},
     {datePlace: '09/2023',
     description: 'Ganador del diseño del cartel de la Velá Solidaria 2023',
@@ -40,6 +37,12 @@ export class AboutComponent {
     {datePlace: '10/2023',
     description: 'Mejor Expediente de la Escuela Técnica Superior de Ingeniería Informática',
     company: 'Universidad de Sevilla'},
+    {datePlace: '10/2023 – Actual — Sevilla, España',
+    description: 'Servicios informáticos en la Biblioteca de la Universidad de Sevilla',
+    company: 'Biblioteca de la Universidad de Sevilla'},
+    {datePlace: '03/2024',
+    description: 'Premio Real Maestranza de Caballería de Sevilla y Premio Excmo. Ayuntamiento de Sevilla',
+    company: ''},
   ]
 
 }
