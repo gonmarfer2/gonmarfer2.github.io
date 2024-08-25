@@ -1,0 +1,110 @@
+{
+    "abilities": {
+        "programming_paradigms": [
+            "Python: Django, Jupyter, SageMath, Machine Learning, Deep Learning...",
+            "HTML, CSS, JavaScript",
+            "Java: SpringBoot",
+            "Scala: ApacheSpark",
+            "C, C++ (básico)"
+        ],
+        "os": [
+            "Windows",
+            "Linux"
+        ],
+        "dbms": [
+            "PostgreSQL",
+            "MySQL (+ MariaDB)",
+            "HBase",
+            "Git"
+        ],
+        "methodologies": [
+            "Scrum",
+            "PMBOKv6",
+            "Kanban"
+        ],
+        "design": [
+            "Blender",
+            "GIMP",
+            "Krita",
+            "Corel Paint Shop Pro 2021",
+            "Inkscape"
+        ]
+    },
+    "studies": [
+        {
+            "title": "Estudios de lengua inglesa",
+            "ini": "2012-09",
+            "fin": "2019-06",
+            "where": "Sevilla, España",
+            "institution": "Centro de Idiomas Macarena"
+        },
+        {
+            "title": "Grado en Ingeniería Informática - Ingeniería del Software",
+            "ini": "2019-09",
+            "fin": "2023-07",
+            "where": "Sevilla, España",
+            "institution": "Universidad de Sevilla"
+        },
+        {
+            "title": "Máster Universitario en Lógica, Computación e Inteligencia Artificial",
+            "ini": "2023-10",
+            "fin": "2024-07",
+            "where": "Sevilla, España",
+            "institution": "Universidad de Sevilla"
+        }
+    ],
+    "experience":[
+        {
+            "title":"Jornada Destacando Talento (Presentación)",
+            "type":"merit",
+            "ini":"2024-05-23",
+            "where":"Sevilla, España",
+            "institution": "Escuela Técnica Superior de Ingeniería Informática"
+        },
+        {
+            "title":"Premio Real Maestranza de Caballería de Sevilla y Premio Excmo. Ayuntamiento de Sevilla",
+            "type":"merit",
+            "ini":"2024-03",
+            "where":"Sevilla, España",
+            "institution": ""
+        },
+        {
+            "title":"Servicios informáticos en la Biblioteca de la Universidad de Sevilla",
+            "type":"work",
+            "ini":"2023-10-01",
+            "fin":"2024-09-30",
+            "where":"Sevilla, España",
+            "institution": "Biblioteca de la Universidad de Sevilla"
+        },
+        {
+            "title":"Mejor Expediente de la Escuela Técnica Superior de Ingeniería Informática",
+            "type":"merit",
+            "ini":"2023-10",
+            "where":"Sevilla, España",
+            "institution": "Universidad de Sevilla"
+        },
+        {
+            "title":"3er Premio CV digital (Diferénciate)",
+            "type":"merit",
+            "ini":"2023-09",
+            "where":"Sevilla, España",
+            "institution": "Universidad de Sevilla"
+        },
+        {
+            "title":"Ganador del diseño del cartel de la Velá Solidaria 2023",
+            "type":"merit",
+            "ini":"2023-09",
+            "where":"Sevilla, España",
+            "institution": "Comunidad General de Propietarios y Residentes de Pino Montano"
+        },
+        {
+            "title":"Big Data",
+            "type":"work",
+            "ini":"2023-02-07",
+            "fin":"2023-07-13",
+            "where":"Sevilla, España",
+            "institution": "Ayesa"
+        }
+
+    ]
+}
