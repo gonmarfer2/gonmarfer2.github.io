@@ -105,6 +105,68 @@
             "where":"Sevilla, España",
             "institution": "Ayesa"
         }
-
+    ],
+    "projects": [
+        {
+            "title":"Sistema de renovación de revistas US",
+            "when":"2024",
+            "technologies":[
+                "PHP",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description":"Durante mi estancia en la Biblioteca de la Universidad de Sevilla, diseñé y ayudé a desarrollar el sistema de renovación de revistas de la Universidad, para facilitar la gestión por parte de la Biblioteca y simplificando el proceso de respuesta de los departamentos, reduciendo en gran medida el tiempo necesario para todos los interesados."
+        },
+        {
+            "title":"Fundación Reinicias",
+            "when":"2023",
+            "technologies":[
+                "Django (Python)",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description":"El proyecto está realizado para la Fundación Reinicias de Granada, y fue mi Trabajo de Fin de Grado. Se trata de una aplicación web subdividida en tres secciones: una para gestionar al equipo técnico, otra para los pacientes, y una última para ofrecer cursos en línea. El objetivo era facilitar la gestión de la información para la fundación."
+        },
+        {
+            "title":"CFB API (Continuous Feedback)",
+            "when":"2023",
+            "technologies":[
+                "Django (Python)"
+            ],
+            "description":"Un proyecto para la asignatura Evolución y Gestión de la Configuración de la Universidad. Esta API ofrece una manera sencilla de enlazar un repositorio de GitHub con un servidor de Discord para recibir notificaciones sobre actualizaciones directas de manera conveniente."
+        },
+        {
+            "title":"Petris",
+            "when":"2022",
+            "technologies":[
+                "SpringBoot (Java)",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description":"Petris es uno de los primeros proyectos en grupo que realicé, en el que un grupo de 6 personas convertimos un juego de mesa en un juego en línea en tiempo real."
+        },
+        {
+            "title":"panaLeria",
+            "when":"2021",
+            "technologies":[
+                "Python",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description":"Mi primer proyecto del grado fue una red social llamada panaLeria. Se trata de un proyecto en solitario en el que los usuarios pueden subir imágenes y compartirlas con la comunidad, buscar por etiquetas, por tendencias... y más funcionalidades."
+        }
+    ],
+    "designs": [
+        {
+            "title":"Cartel Velá Pino Montano 2023",
+            "when":"2023",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/cartelVela.jpg",
+            "description":"Ganador del concurso de carteles."
+        }
     ]
 }

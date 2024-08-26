@@ -41,10 +41,33 @@ function load_experiences(texts) {
     div.insertAdjacentHTML('afterend',experiences_list);
 }
 
+function load_projects(texts) {
+    const div = document.getElementById('projects');
+    let projects_list = '<ul>';
+    for (let project of texts) {
+        const technologies = project.technologies.join(', ');
+        projects_list += `<li><strong>${project.title}</strong>&nbsp;(${project.when})<br/>Tecnolog&iacute;as:&nbsp;${technologies}<br/>${project.description}</li>`;
+    }
+    projects_list += '</ul>';
+    div.insertAdjacentHTML('afterend',projects_list);
+}
+
+function load_designs(texts) {
+    const div = document.getElementById('designs');
+    let designs_list = '<ul>';
+    for (let design of texts) {
+        designs_list += `<li><strong>${design.title}</strong><br/>(${design.when})<br/><img src="${design.img}" alt="${design.img}"><br/>${design.description}</li>`;
+    }
+    designs_list += '</ul>';
+    div.insertAdjacentHTML('afterend',designs_list);
+}
+
 get_json("src/texts.json")
 .then(texts => {
     load_abilities(texts.abilities);
     load_studies(texts.studies);
     load_experiences(texts.experience);
+    load_projects(texts.projects);
+    load_designs(texts.designs);
 })
 .catch();
