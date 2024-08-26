@@ -1,12 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
     /* CSS HEX */
-    --alabaster: #f1eee5ff; 
-    --dun: #dcc6a4ff; 
-    --old-rose: #b88080ff; 
-    --hookers-green: #5b7b7aff; 
-    --dark-cyan: #3c887eff;
+    --alabaster: #fbf8efff; 
+    --dun: #ebbc8dff; 
+    --old-rose: #995757ff; 
+    --hookers-green: #2b6c6aff; 
+    --dark-cyan: #6baca3ff;
     --white: #ffffffff;
+    --black: #333333ff;
 }
 
 @font-face  {
@@ -26,14 +27,99 @@
     src: url('./assets/typographies/OldStandard-Bold.ttf') format('truetype');
 }
 
-body {
+body,html {
     margin: 0;
     padding: 0;
-    background-color: var(--alabaster);
 }
 
 span::selection,
 h1::selection {
     color: var(--alabaster);
     background-color: var(--hookers-green);
+}
+
+/* HERO */
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--alabaster);
+    display: flex;
+}
+
+#left-hero {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: var(--old-rose);
+    border-right: 0.25rem solid var(--black);
+}
+
+#myname {
+    flex-grow: 4;
+    width: calc(100% - 2rem);
+    margin: 0;
+    align-content: end;
+    padding: 0 1rem;
+    color: var(--alabaster);
+    font-family: 'SourcePro';
+    font-size: 5rem;
+    text-wrap: wrap;
+    text-shadow: 0.4rem 0.5rem var(--black);
+}
+
+#contact-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-width: 0.25rem 0 0 0;
+    border-style: solid;
+    border-color: var(--black);
+    background-color: var(--dun);
+}
+
+#contact-wrapper h2 {
+    margin: 0;
+    padding: 3rem 1rem 0 1rem;
+    font-family: 'SourcePro';
+    font-size: 3rem;
+    color: var(--black);
+}
+
+#contact-wrapper #contact-bar {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-bar img{
+    width: 44px;
+    height: 44px;
+}
+
+#right-hero {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+#hero-gif-wrapper {
+    width: 100%;
+    flex-grow: 4;
+    background-color: var(--hookers-green);
+    border-bottom: 0.25rem solid var(--black);
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+#hero-gif-wrapper img {
+        background-color: var(--alabaster);
+    margin: 1.5rem;
+}
+
+#go-down {
+    flex-grow: 2;
 }
