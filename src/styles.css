@@ -41,7 +41,7 @@ h1::selection {
 /* HERO */
 
 #hero {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: var(--alabaster);
     display: flex;
@@ -57,7 +57,7 @@ h1::selection {
 }
 
 #myname {
-    flex-grow: 4;
+    flex-grow: 8;
     width: calc(100% - 2rem);
     margin: 0;
     align-content: end;
@@ -70,9 +70,11 @@ h1::selection {
 }
 
 #contact-wrapper {
+    flex-grow: 1;
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     border-width: 0.25rem 0 0 0;
     border-style: solid;
     border-color: var(--black);
