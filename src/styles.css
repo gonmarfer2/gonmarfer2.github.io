@@ -45,6 +45,7 @@ h1::selection {
     height: 100vh;
     background-color: var(--alabaster);
     display: flex;
+    border-bottom: 0.25rem solid var(--black);
 }
 
 #left-hero {
@@ -124,4 +125,56 @@ h1::selection {
 
 #go-down {
     flex-grow: 2;
+}
+
+/* SEPARATOR */
+
+.separator {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    border-width: 0.25rem 0 0.25rem 0;
+    border-style: solid;
+    border-color: var(--old-rose);
+}
+
+.separator:hover > img:nth-child(1),
+.separator:hover > img:nth-child(3) {
+    transition-duration: 0.5s;
+}
+
+.separator:hover > img:nth-child(2) {
+    transition-duration: 0.75s;
+}
+
+.separator > img {
+    content: url('assets/rhombus.svg');
+    margin: 0 0.5rem;
+    transition-duration: 1s;
+}
+
+.separator:hover > img {
+    transform: rotate(90deg);
+    transform-origin: 11px 11px;
+}
+
+/* QUIEN SOY */
+
+#whoami {
+    background-color: var(--dun);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#whoami h2 {
+    font-family: 'SourcePro';
+    font-size: 3rem;
+}
+
+#whoami h3 {
+    font-family: 'SourcePro';
+    font-size: 1.2rem;
 }
