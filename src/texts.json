@@ -1,4 +1,5 @@
 {
+    "whoami":"Soy un sevillano graduado en Ingeniería Informática del Software, con un gran entusiasmo por aprender cada día un poco más que el anterior. También poseo un gran sentido de la responsabilidad y aptitudes para adaptarme a cualquier situación. Mis especialidades son la Ingeniería de Requisitos, el desarrollo web y la Inteligencia Artificial.",
     "abilities": {
         "programming_paradigms": [
             "Python: Django, Jupyter, SageMath, Machine Learning, Deep Learning...",

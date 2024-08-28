@@ -9,3 +9,11 @@ Combinar el estilo visual de la EXPO92 con el de la EXPO29 añadiendo identidad 
 - Secciones separadas con elementos decorativos interactivos según el scroll.
 - El título debe tener una relación 5:2 con el cuerpo.
 
+### Apartados
+
+- Sobre mí
+  - Idiomas
+  - Habilidades
+- Estudios y experiencia
+- Proyectos
+- Diseños

@@ -4,6 +4,7 @@
     --alabaster: #fbf8efff; 
     --dun: #ebbc8dff; 
     --old-rose: #995757ff; 
+    --old-rose-half: #99575788; 
     --hookers-green: #2b6c6aff; 
     --dark-cyan: #6baca3ff;
     --white: #ffffffff;
@@ -27,15 +28,85 @@
     src: url('./assets/typographies/OldStandard-Bold.ttf') format('truetype');
 }
 
+@font-face  {
+    font-family: 'FuturaCond';
+    font-weight: normal;
+    src: url('./assets/typographies/FuturaCondensed.ttf') format('truetype');
+}
+
+@font-face  {
+    font-family: 'FuturaCond';
+    font-weight: bold;
+    src: url('./assets/typographies/FuturaCondensedExtraBold.ttf') format('truetype');
+}
+
+@font-face  {
+    font-family: 'Futura';
+    font-weight: normal;
+    src: url('./assets/typographies/FuturaBook.ttf') format('truetype');
+}
+
+@font-face  {
+    font-family: 'Futura';
+    font-weight: bold;
+    src: url('./assets/typographies/FuturaStdBold.ttf') format('truetype');
+}
+
+p, span, li {
+    font-family: 'Futura';
+    font-size: 1.2rem;
+}
+
+*::selection {
+    color: var(--alabaster);
+    background-color: var(--black);
+}
+
 body,html {
     margin: 0;
     padding: 0;
+    background-color: var(--alabaster);
+    scroll-behavior: smooth;
 }
 
 span::selection,
 h1::selection {
     color: var(--alabaster);
     background-color: var(--hookers-green);
+}
+
+/* MENU */
+
+#menu {
+    position: fixed;
+    top: 0.5rem;
+    left: 0;
+    background-color: transparent;
+    transition-duration: 0.25s;
+}
+
+#menu-list {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 0 2rem;
+}
+
+#menu-list a {
+    color: var(--alabaster);
+    text-decoration: none;
+}
+
+#menu-list a:hover {
+    color: var(--alabaster);
+    font-weight: bold;
+}
+
+.menu-color {
+    background-color: var(--old-rose) !important;
+    transition-duration: 0.25s;
+    left: none;
+    right: 0;
 }
 
 /* HERO */
@@ -58,20 +129,22 @@ h1::selection {
 }
 
 #myname {
-    flex-grow: 8;
+    flex-grow: 10;
     width: calc(100% - 2rem);
     margin: 0;
-    align-content: end;
+    align-content: center;
     padding: 0 1rem;
     color: var(--alabaster);
-    font-family: 'SourcePro';
-    font-size: 5rem;
+    text-align: right;
+    font-family: 'Futura';
+    font-weight: bold;
+    font-size: clamp(2.5rem,5vw,5rem);
     text-wrap: wrap;
-    text-shadow: 0.4rem 0.5rem var(--black);
+    text-shadow: 0.2rem 0.2rem var(--black);
 }
 
 #contact-wrapper {
-    flex-grow: 1;
+    flex-grow: 2;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -82,16 +155,8 @@ h1::selection {
     background-color: var(--dun);
 }
 
-#contact-wrapper h2 {
-    margin: 0;
-    padding: 3rem 1rem 0 1rem;
-    font-family: 'SourcePro';
-    font-size: 3rem;
-    color: var(--black);
-}
-
 #contact-wrapper #contact-bar {
-    padding: 1rem;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -110,17 +175,24 @@ h1::selection {
 
 #hero-gif-wrapper {
     width: 100%;
-    flex-grow: 4;
+    flex-grow: 8;
     background-color: var(--hookers-green);
     border-bottom: 0.25rem solid var(--black);
     display: flex;
-    justify-content: stretch;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
 }
 
-#hero-gif-wrapper img {
-        background-color: var(--alabaster);
-    margin: 1.5rem;
+.hero-gif-container {
+    width: 80%;
+    height: 80%;
+}
+
+.hero-gif-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0.5rem;
 }
 
 #go-down {
@@ -160,21 +232,54 @@ h1::selection {
     transform-origin: 11px 11px;
 }
 
+#go-down {
+    position: relative;
+}
+
+#go-down::after {
+    content: url('assets/chevron-down.svg');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(3);
+    transition-duration: 1s;
+}
+
+#go-down:hover::after {
+    transform: scale(3) translate(0,0.5rem);
+    transition-duration: 0.5s;
+}
+
 /* QUIEN SOY */
 
 #whoami {
-    background-color: var(--dun);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 3rem 1rem 0 1rem;
+}
+
+#whoami p {
+    margin: 0;
+    width: 50%;
 }
 
 #whoami h2 {
-    font-family: 'SourcePro';
+    font-family: 'FuturaCond';
     font-size: 3rem;
+    margin: 2rem 0 1rem 0;
 }
 
 #whoami h3 {
-    font-family: 'SourcePro';
-    font-size: 1.2rem;
+    font-family: 'Futura';
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2rem 0 0 0;
+}
+
+#whoami h4 {
+    font-family: 'Futura';
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 0;
 }

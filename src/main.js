@@ -62,12 +62,29 @@ function load_designs(texts) {
     div.insertAdjacentHTML('afterend',designs_list);
 }
 
+function load_whoami(texts) {
+    const div = document.getElementById('whoami-title');
+    let designs_list = `<p>${texts}</p>`;
+    div.insertAdjacentHTML('afterend',designs_list);
+}
+
 get_json("src/texts.json")
 .then(texts => {
+    load_whoami(texts.whoami);
     load_abilities(texts.abilities);
     load_studies(texts.studies);
     load_experiences(texts.experience);
     load_projects(texts.projects);
     load_designs(texts.designs);
+    
+    window.onscroll = () => {
+        console.log(document.getElementById('hero').scrollTop);
+        console.log(document.getElementById('hero').scrollTop + document.documentElement.offsetHeight >= document.getElementById('hero').scrollHeight);
+        if (document.documentElement.scrollTop > 900) {
+            document.getElementById("menu").classList.add('menu-color');
+        } else {
+            document.getElementById("menu").classList.remove('menu-color');
+        }
+    };
 })
 .catch();
