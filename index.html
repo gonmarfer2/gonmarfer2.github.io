@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gonzalo Mart&iacute;nez Fern&aacute;ndez</title>
     <link rel="stylesheet" href="src/styles.css" type="text/css">
+    <link rel="stylesheet" href="src/styles_mobile.css" type="text/css">
 </head>
 <body>
     <nav id="menu">
@@ -16,15 +17,15 @@
         </ul>
     </nav>
     <main id="hero">
-        <h1 id="myname" class=""><span>Gonzalo<br/>Martínez<br/>Fernández</span></h1>
+        <h1 id="myname" class=""><span>Gonzalo Martínez Fernández</span></h1>
         
         <div id="contact-wrapper">
             <!--<h2>Contacto</h2>-->
             <div id="contact-bar">
-                <a href="mailto:martinezfernandezgonzalo@gmail.com" target="_blank"><img src="src/assets/envelope-fill.svg"/></a>
-                <a href="https://www.linkedin.com/in/gonmarfer2/" target="_blank"><img src="src/assets/linkedin.svg"/></a>
-                <a href="https://github.com/gonmarfer2" target="_blank"><img src="src/assets/github.svg"/></a>
-                <a href="https://falnairaar.itch.io/" target="_blank"><img src="src/assets/itchio.svg"/></a>
+                <a id="svg-mail" href="mailto:martinezfernandezgonzalo@gmail.com" target="_blank"></a>
+                <a id="svg-linkedin" href="https://www.linkedin.com/in/gonmarfer2/" target="_blank"></a>
+                <a id="svg-github" href="https://github.com/gonmarfer2" target="_blank"></a>
+                <a id="svg-itchio" href="https://falnairaar.itch.io/" target="_blank"></a>
             </div>
         </div>
 
@@ -39,7 +40,12 @@
 
     <section id="whoami">
         <h2 id="whoami-title">Quién soy</h2>
-        
+        <div id="whoami-header">
+            <img src="src/assets/rhombus.svg" alt="Separator">
+            <div id="whoami-description-wrapper"></div>
+            <img src="src/assets/rhombus.svg" alt="Separator">
+        </div>
+
         <div id="abilities-wrapper">
             <h3 id="abilities">Habilidades y conocimientos</h3>
             <div id="abilities-display">
@@ -50,12 +56,12 @@
                     <span id="methodologies" class="closed" data-state="3">Metodologías de desarrollo y gestión de proyectos</span>
                     <span id="design" class="closed" data-state="4">Diseño gráfico y 3D</span>
                 </div>
-                <div id="abilities-description"></div>
+                <div id="abilities-description"><span>Clique en una categoría para ver sus elementos...</span></div>
             </div>
         </div>
 
+        <h3>Idiomas</h3>
         <div id="languages">
-            <h3>Idiomas</h3>
             <ul>
                 <li><img src="src/assets/pictures/languages/icons8-spain-48.png" alt="Español"><span>nativo</span></li>
                 <li><img src="src/assets/pictures/languages/icons8-great-britain-48.png" alt="Inglés"><span>C1</span></li>

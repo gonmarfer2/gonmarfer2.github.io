@@ -71,12 +71,6 @@ body,html {
     scroll-behavior: smooth;
 }
 
-span::selection,
-h1::selection {
-    color: var(--alabaster);
-    background-color: var(--hookers-green);
-}
-
 /* MENU */
 
 #menu {
@@ -93,6 +87,10 @@ h1::selection {
     gap: 1rem;
     list-style-type: none;
     padding: 0 2rem;
+}
+
+#menu-list li {
+    width: 8rem;
 }
 
 #menu-list a {
@@ -149,24 +147,59 @@ h1::selection {
 
 #contact-wrapper {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: var(--dun);
 
     grid-column: 1/2;
     grid-row: 4/6;
 }
 
-#contact-wrapper #contact-bar {
+#contact-bar {
+    flex-basis: 70%;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
 }
 
-#contact-bar img{
+#contact-bar a{
     width: 44px;
     height: 44px;
+    mask-size: cover;
+    background: var(--black);
 }
+
+#svg-mail {
+    mask: url('./assets/envelope-fill.svg');
+}
+
+#svg-linkedin {
+    mask: url('./assets/linkedin.svg');
+}
+
+#svg-github {
+    mask: url('./assets/github.svg');
+}
+
+#svg-itchio {
+    mask: url('./assets/itchio.svg');
+}
+
+#svg-mail,
+#svg-linkedin,
+#svg-github,
+#svg-itchio {
+    transition-duration: 0.75s;
+}
+
+#svg-mail:hover,
+#svg-linkedin:hover,
+#svg-github:hover,
+#svg-itchio:hover {
+    background: var(--alabaster);
+    transition-duration: 0.25s;
+}
+
 
 #hero-gif-wrapper {
     background-color: var(--hookers-green);
@@ -255,14 +288,30 @@ section {
     display: flex;
     padding: 6rem 1rem 0 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-#whoami-description {
-    flex-basis: 100%;
+#whoami-description-wrapper {
+    flex-basis: 50%;
+    text-align: justify;
 }
 
 #whoami p {
     margin: 0;
+}
+
+#whoami-header {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+#whoami-header img {
+    width: 2rem;
+    height: 2rem;
 }
 
 h2 {
@@ -279,17 +328,18 @@ h2 {
 }
 
 #languages {
-    flex-basis: 50%;
+    flex-basis: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
 #languages ul {
+    flex-basis: 100%;
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(8rem,1fr));
+    column-gap: 1rem;
 }
 
 #languages ul li {
@@ -339,6 +389,12 @@ h3 {
     background-color: var(--alabaster);
     border: 0.25rem solid var(--old-rose);
     box-shadow: 1rem 1rem var(--old-rose);
+    display: flex;
+}
+
+#abilities-description span {
+    width: 100%;
+    padding: 1rem;
 }
 
 #abilities-buttons span {

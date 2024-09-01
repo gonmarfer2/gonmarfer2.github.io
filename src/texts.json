@@ -1,5 +1,5 @@
 {
-    "whoami":"Soy un sevillano graduado en Ingeniería Informática del Software, con un gran entusiasmo por aprender cada día un poco más que el anterior. También poseo un gran sentido de la responsabilidad y aptitudes para adaptarme a cualquier situación. Mis especialidades son la Ingeniería de Requisitos, el desarrollo web y la Inteligencia Artificial.",
+    "whoami":"Soy un sevillano nacido en 2001, graduado en Ingeniería Informática del Software y en el Máster Universitario en Lógica, Computación e Inteligencia Artificial, con un gran entusiasmo por aprender cada día un poco más que el anterior. También poseo un gran sentido de la responsabilidad y aptitudes para adaptarme a cualquier situación. Mis especialidades son la Ingeniería de Requisitos, el desarrollo web y la Inteligencia Artificial.",
     "abilities": {
         "programming_paradigms": [
             "Python: Django, Jupyter, SageMath, Machine Learning, Deep Learning...",
@@ -56,9 +56,10 @@
     ],
     "experience":[
         {
-            "title":"Jornada Destacando Talento (Presentación)",
-            "type":"merit",
+            "title":"Jornada Destacando Talento (Ponente)",
+            "type":"work",
             "ini":"2024-05-23",
+            "fin":"2024-05-23",
             "where":"Sevilla, España",
             "institution": "Escuela Técnica Superior de Ingeniería Informática"
         },

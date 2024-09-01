@@ -69,9 +69,9 @@ function load_designs(texts) {
 }
 
 function load_whoami(texts) {
-    const div = document.getElementById('whoami-title');
+    const div = document.getElementById('whoami-description-wrapper');
     let designs_list = `<p id="whoami-description">${texts}</p>`;
-    div.insertAdjacentHTML('afterend',designs_list);
+    div.insertAdjacentHTML('afterbegin',designs_list);
 }
 
 
