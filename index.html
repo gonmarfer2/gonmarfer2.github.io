@@ -16,77 +16,110 @@
         </ul>
     </nav>
     <main id="hero">
-        <div id="left-hero">
-            <h1 id="myname">Gonzalo<br/>Martínez<br/>Fernández</h1>
-            
-            <div id="contact-wrapper">
-                <!--<h2>Contacto</h2>-->
-                <div id="contact-bar">
-                    <a href="mailto:martinezfernandezgonzalo@gmail.com" target="_blank"><img src="src/assets/envelope-fill.svg"/></a>
-                    <a href="https://www.linkedin.com/in/gonmarfer2/" target="_blank"><img src="src/assets/linkedin.svg"/></a>
-                    <a href="https://github.com/gonmarfer2" target="_blank"><img src="src/assets/github.svg"/></a>
-                    <a href="https://falnairaar.itch.io/" target="_blank"><img src="src/assets/itchio.svg"/></a>
-                </div>
+        <h1 id="myname" class=""><span>Gonzalo<br/>Martínez<br/>Fernández</span></h1>
+        
+        <div id="contact-wrapper">
+            <!--<h2>Contacto</h2>-->
+            <div id="contact-bar">
+                <a href="mailto:martinezfernandezgonzalo@gmail.com" target="_blank"><img src="src/assets/envelope-fill.svg"/></a>
+                <a href="https://www.linkedin.com/in/gonmarfer2/" target="_blank"><img src="src/assets/linkedin.svg"/></a>
+                <a href="https://github.com/gonmarfer2" target="_blank"><img src="src/assets/github.svg"/></a>
+                <a href="https://falnairaar.itch.io/" target="_blank"><img src="src/assets/itchio.svg"/></a>
             </div>
         </div>
-        <div id="right-hero">
-            <div id="hero-gif-wrapper">
-                <div class="hero-gif-container">
-                    <img src="src/assets/animations/hero.gif" alt="Photos of mine">
-                </div>
+
+        <div id="hero-gif-wrapper">
+            <div class="hero-gif-container">
+                <img src="src/assets/animations/hero.gif" alt="Photos of mine">
             </div>
-            <div id="go-down"></div>
         </div>
+
+        <div id="go-down" class=""></div>
     </main>
 
     <section id="whoami">
         <h2 id="whoami-title">Quién soy</h2>
-        <h3>Idiomas</h3>
-        <ul>
-            <li>Español (nativo)</li>
-            <li>Inglés (C1, Cambridge, mención C2)</li>
-            <li>Francés (básico)</li>
-            <li>Sueco (básico)</li>
-        </ul>
         
-        <h3 id="abilities">Habilidades y conocimientos</h3>
-        <h4 id="programming_paradigms">Paradigmas de programación</h4>
-        <h4 id="os">Sistemas operativos</h4>
-        <h4 id="dbms">Sistemas gestores de bases de datos y control de versiones</h4>
-        <h4 id="methodologies">Metodologías de desarrollo software y gestión de proyectos</h4>
-        <h4 id="design">Diseño gráfico y 3D</h4>
+        <div id="abilities-wrapper">
+            <h3 id="abilities">Habilidades y conocimientos</h3>
+            <div id="abilities-display">
+                <div id="abilities-buttons">
+                    <span id="programming_paradigms" class="closed" data-state="0">Paradigmas de programación</span>
+                    <span id="os" class="closed" data-state="1">Sistemas operativos</span>
+                    <span id="dbms" class="closed" data-state="2">Bases de datos y control de versiones</span>
+                    <span id="methodologies" class="closed" data-state="3">Metodologías de desarrollo y gestión de proyectos</span>
+                    <span id="design" class="closed" data-state="4">Diseño gráfico y 3D</span>
+                </div>
+                <div id="abilities-description"></div>
+            </div>
+        </div>
+
+        <div id="languages">
+            <h3>Idiomas</h3>
+            <ul>
+                <li><img src="src/assets/pictures/languages/icons8-spain-48.png" alt="Español"><span>nativo</span></li>
+                <li><img src="src/assets/pictures/languages/icons8-great-britain-48.png" alt="Inglés"><span>C1</span></li>
+                <li><img src="src/assets/pictures/languages/icons8-france-48.png" alt="Francés"><span>básico</span></li>
+                <li><img src="src/assets/pictures/languages/icons8-sweden-48.png" alt="Sueco"><span>básico</span></li>
+            </ul>
+        </div>
     </section>
 
-    <div class="separator">
+    <div id="training" class="separator">
         <img src="src/assets/rhombus.svg" alt="Separator">
         <img src="src/assets/rhombus.svg" alt="Separator">
         <img src="src/assets/rhombus.svg" alt="Separator">
     </div>
 
-    <section id="training">
+    <section>
         <h3 id="studies">Estudios</h3>
+
+        <div id="studies-grid" class="metro-grid">
+            <div id="studies-vline" class="metro-vline"></div>
+            <div id="studies-list" class="metro-list"></div>
+        </div>
+
         <h3 id="experiences">Experiencia</h3>
+
+        <div id="experience-grid" class="metro-grid">
+            <div id="experience-vline" class="metro-vline"></div>
+            <div id="experience-list" class="metro-list"></div>
+        </div>
     </section>
 
-    <div class="separator">
+    <div id="myprojects" class="separator">
         <img src="src/assets/rhombus.svg" alt="Separator">
         <img src="src/assets/rhombus.svg" alt="Separator">
         <img src="src/assets/rhombus.svg" alt="Separator">
     </div>
 
-    <section id="myprojects">
+    <section>
         <h2 id="projects">Proyectos</h2>
+
+        <div id="project-grid" class="my-grid"></div>
     </section>
 
-    <div class="separator">
+    <div id="mydesigns" class="separator">
         <img src="src/assets/rhombus.svg" alt="Separator">
         <img src="src/assets/rhombus.svg" alt="Separator">
         <img src="src/assets/rhombus.svg" alt="Separator">
     </div>
     
-    <section id="mydesigns">
+    <section>
         <h2 id="designs">Diseños</h2>
+
+        <div id="designs-grid" class="my-grid"></div>
     </section>
+
+    <div class="separator">
+        <img src="src/assets/rhombus.svg" alt="Separator">
+        <img src="src/assets/rhombus.svg" alt="Separator">
+        <img src="src/assets/rhombus.svg" alt="Separator">
+    </div>
+
+    <footer>
+        <span>2024</span>
+    </footer>
 
     <script src="src/main.js"></script>
 </body>

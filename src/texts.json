@@ -128,7 +128,8 @@
                 "CSS",
                 "JavaScript"
             ],
-            "description":"El proyecto está realizado para la Fundación Reinicias de Granada, y fue mi Trabajo de Fin de Grado. Se trata de una aplicación web subdividida en tres secciones: una para gestionar al equipo técnico, otra para los pacientes, y una última para ofrecer cursos en línea. El objetivo era facilitar la gestión de la información para la fundación."
+            "description":"El proyecto está realizado para la Fundación Reinicias de Granada, y fue mi Trabajo de Fin de Grado. Se trata de una aplicación web subdividida en tres secciones: una para gestionar al equipo técnico, otra para los pacientes, y una última para ofrecer cursos en línea. El objetivo era facilitar la gestión de la información para la fundación.",
+            "img":"./src/assets/pictures/reinicias00.jpg"
         },
         {
             "title":"CFB API (Continuous Feedback)",
@@ -136,7 +137,8 @@
             "technologies":[
                 "Django (Python)"
             ],
-            "description":"Un proyecto para la asignatura Evolución y Gestión de la Configuración de la Universidad. Esta API ofrece una manera sencilla de enlazar un repositorio de GitHub con un servidor de Discord para recibir notificaciones sobre actualizaciones directas de manera conveniente."
+            "description":"Un proyecto para la asignatura Evolución y Gestión de la Configuración de la Universidad. Esta API ofrece una manera sencilla de enlazar un repositorio de GitHub con un servidor de Discord para recibir notificaciones sobre actualizaciones directas de manera conveniente.",
+            "img":"./src/assets/pictures/cfb00.jpg"
         },
         {
             "title":"Petris",
@@ -147,7 +149,8 @@
                 "CSS",
                 "JavaScript"
             ],
-            "description":"Petris es uno de los primeros proyectos en grupo que realicé, en el que un grupo de 6 personas convertimos un juego de mesa en un juego en línea en tiempo real."
+            "description":"Petris es uno de los primeros proyectos en grupo que realicé, en el que un grupo de 6 personas convertimos un juego de mesa en un juego en línea en tiempo real.",
+            "img":"./src/assets/pictures/petris00.jpg"
         },
         {
             "title":"panaLeria",
@@ -158,16 +161,62 @@
                 "CSS",
                 "JavaScript"
             ],
-            "description":"Mi primer proyecto del grado fue una red social llamada panaLeria. Se trata de un proyecto en solitario en el que los usuarios pueden subir imágenes y compartirlas con la comunidad, buscar por etiquetas, por tendencias... y más funcionalidades."
+            "description":"Mi primer proyecto del grado fue una red social llamada panaLeria. Se trata de un proyecto en solitario en el que los usuarios pueden subir imágenes y compartirlas con la comunidad, buscar por etiquetas, por tendencias... y más funcionalidades.",
+            "img":"./src/assets/pictures/panaLeria00.jpg"
         }
     ],
     "designs": [
+        {
+            "title":"Póster TFG",
+            "when":"2024",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/PosterTFG.png",
+            "description":"Descripción de mi Trabajo de Fin de Grado para las Jornadas \"Destacando Talento\" de la E.T.S.I.I."
+        },
         {
             "title":"Cartel Velá Pino Montano 2023",
             "when":"2023",
             "type":"2D",
             "img":"/src/assets/pictures/designs/cartelVela.jpg",
-            "description":"Ganador del concurso de carteles."
+            "description":"Ganador del concurso de carteles de la Comunidad General de Propietarios del barrio de Pino Montano."
+        },
+        {
+            "title":"Futuro pasado",
+            "when":"2023",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/BarquetaYGloboIslaMagica_Sueños.jpg"
+        },
+        {
+            "title":"¿Torre Sevilla?",
+            "when":"2023",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/torreSevilla.jpg"
+        },
+        {
+            "title":"Gomisaurio",
+            "when":"2022",
+            "type":"3D",
+            "img":"/src/assets/pictures/designs/3d/Gomisaurio.png",
+            "description":"Mi propuesta para la Jam \"Make a Dinosaur 3\"."
+        },
+        {
+            "title":"A",
+            "when":"2022",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/A.png"
+        },
+        {
+            "title":"Cielo Azul",
+            "when":"2021",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/EDIT_CIELO_AZUL1.jpg"
+        },
+        {
+            "title":"Renderizado de un sueño",
+            "when":"2021",
+            "type":"3D",
+            "img":"/src/assets/pictures/designs/3d/sueño1.png"
         }
+        
     ]
 }

@@ -1,3 +1,28 @@
+# Requisitos
+
+## Objetivo general
+
+Presentar mi CV de forma atractiva y expandida, añadiendo los proyectos y diseños.
+
+## Qué quiero transmitir
+
+- Que soy una persona creativa
+- Pero que he hecho trabajos interesantes
+- Que estoy capacitado para un puesto
+- Que vengo de Sevilla
+- Que me gusta el diseño, en concreto la EXPO92
+
+## Cómo transmitir estas ideas a través del diseño
+
+- Ideas generales:
+  - Retrofuturista
+
+- Línea
+  - Rectas para demostrar constancia
+- Ritmo:
+  - Ligero para datos y habilidades
+    - Si quieren ver los detalles de las habilidades, que puedan pero no ralentiza el ritmo.
+
 # Guía de diseño del portafolio
 
 ## Idea general
