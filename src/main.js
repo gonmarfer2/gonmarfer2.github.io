@@ -74,15 +74,46 @@ function load_whoami(texts) {
     div.insertAdjacentHTML('afterbegin',designs_list);
 }
 
+function load_titles(texts) {
+    for(let title in texts) {
+        document.getElementById(title).innerHTML = texts[title];
+    } 
+}
 
-get_json("src/texts.json")
+function load_spans(texts) {
+    for(let title in texts) {
+        document.getElementById(title).insertAdjacentHTML('beforeend',texts[title]);
+    } 
+}
+
+const acceptedLangs = ['en','es']
+console.log(localStorage.getItem("lang"));
+console.log(acceptedLangs.includes(localStorage.getItem("lang")));
+if(!localStorage.getItem("lang") || !(acceptedLangs.includes(localStorage.getItem("lang")))) {
+    localStorage.setItem("lang","es");
+}
+
+const langSelectors = document.querySelectorAll("#lang-selection li > a");
+for(let lang of langSelectors) {
+    lang.addEventListener('click', function(e) {
+        e.preventDefault();
+        localStorage.setItem("lang",e.target.parentNode.getAttribute('data-lang'));
+        window.location.reload();
+    })
+}
+
+get_json(`src/texts_${localStorage.getItem("lang")}.json`)
 .then(texts => {
+    load_titles(texts.menu);
+    load_titles(texts.titles);
+    load_titles(texts.abilities_buttons);
     load_whoami(texts.whoami);
     // load_abilities(texts.abilities);
     load_studies(texts.studies);
     load_experiences(texts.experience);
     load_projects(texts.projects);
     load_designs(texts.designs);
+    load_spans(texts.languages);
     
     window.onscroll = () => {
         if (document.documentElement.scrollTop > 900) {

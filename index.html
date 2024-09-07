@@ -10,10 +10,14 @@
 <body>
     <nav id="menu">
         <ul id="menu-list">
-            <li><a href="#whoami">Quién soy</a></li>
-            <li><a href="#training">Experiencia</a></li>
-            <li><a href="#myprojects">Proyectos</a></li>
-            <li><a href="#mydesigns">Diseños</a></li>
+            <li><a href="#whoami" id="menu-whoami"></a></li>
+            <li><a href="#training" id="menu-training"></a></li>
+            <li><a href="#myprojects" id="menu-myprojects"></a></li>
+            <li><a href="#mydesigns" id="menu-mydesigns"></a></li>
+        </ul>
+        <ul id="lang-selection">
+            <li><a href="/" data-lang="es"><img src="./src/assets/pictures/languages/icons8-spain-48.png"/></a></li>
+            <li><a href="/" data-lang="en"><img src="./src/assets/pictures/languages/icons8-great-britain-48.png"/></a></li>
         </ul>
     </nav>
     <main id="hero">
@@ -39,7 +43,7 @@
     </main>
 
     <section id="whoami">
-        <h2 id="whoami-title">Quién soy</h2>
+        <h2 id="whoami-title"></h2>
         <div id="whoami-header">
             <img src="src/assets/rhombus.svg" alt="Separator">
             <div id="whoami-description-wrapper"></div>
@@ -47,26 +51,26 @@
         </div>
 
         <div id="abilities-wrapper">
-            <h3 id="abilities">Habilidades y conocimientos</h3>
+            <h3 id="abilities"></h3>
             <div id="abilities-display">
                 <div id="abilities-buttons">
-                    <span id="programming_paradigms" class="closed" data-state="0">Paradigmas de programación</span>
-                    <span id="os" class="closed" data-state="1">Sistemas operativos</span>
-                    <span id="dbms" class="closed" data-state="2">Bases de datos y control de versiones</span>
-                    <span id="methodologies" class="closed" data-state="3">Metodologías de desarrollo y gestión de proyectos</span>
-                    <span id="design" class="closed" data-state="4">Diseño gráfico y 3D</span>
+                    <span id="programming_paradigms" class="closed" data-state="0"></span>
+                    <span id="os" class="closed" data-state="1"></span>
+                    <span id="dbms" class="closed" data-state="2"></span>
+                    <span id="methodologies" class="closed" data-state="3"></span>
+                    <span id="design" class="closed" data-state="4"></span>
                 </div>
-                <div id="abilities-description"><span>Clique en una categoría para ver sus elementos...</span></div>
+                <div id="abilities-description"></div>
             </div>
         </div>
 
-        <h3>Idiomas</h3>
+        <h3 id="languages-title"></h3>
         <div id="languages">
             <ul>
-                <li><img src="src/assets/pictures/languages/icons8-spain-48.png" alt="Español"><span>nativo</span></li>
-                <li><img src="src/assets/pictures/languages/icons8-great-britain-48.png" alt="Inglés"><span>C1</span></li>
-                <li><img src="src/assets/pictures/languages/icons8-france-48.png" alt="Francés"><span>básico</span></li>
-                <li><img src="src/assets/pictures/languages/icons8-sweden-48.png" alt="Sueco"><span>básico</span></li>
+                <li id="lang-info-es"><img src="src/assets/pictures/languages/icons8-spain-48.png" alt="Español"></li>
+                <li id="lang-info-en"><img src="src/assets/pictures/languages/icons8-great-britain-48.png" alt="Inglés"></li>
+                <li id="lang-info-fr"><img src="src/assets/pictures/languages/icons8-france-48.png" alt="Francés"></li>
+                <li id="lang-info-se"><img src="src/assets/pictures/languages/icons8-sweden-48.png" alt="Sueco"></li>
             </ul>
         </div>
     </section>
@@ -78,14 +82,14 @@
     </div>
 
     <section>
-        <h3 id="studies">Estudios</h3>
+        <h3 id="studies"></h3>
 
         <div id="studies-grid" class="metro-grid">
             <div id="studies-vline" class="metro-vline"></div>
             <div id="studies-list" class="metro-list"></div>
         </div>
 
-        <h3 id="experiences">Experiencia</h3>
+        <h3 id="experiences"></h3>
 
         <div id="experience-grid" class="metro-grid">
             <div id="experience-vline" class="metro-vline"></div>
@@ -100,7 +104,7 @@
     </div>
 
     <section>
-        <h2 id="projects">Proyectos</h2>
+        <h2 id="projects"></h2>
 
         <div id="project-grid" class="my-grid"></div>
     </section>
@@ -112,7 +116,7 @@
     </div>
     
     <section>
-        <h2 id="designs">Diseños</h2>
+        <h2 id="designs"></h2>
 
         <div id="designs-grid" class="my-grid"></div>
     </section>

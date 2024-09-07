@@ -1,0 +1,253 @@
+{
+    "menu": {
+        "menu-whoami":"Who am I",
+        "menu-training":"Experience",
+        "menu-myprojects":"Projects",
+        "menu-mydesigns":"Designs"
+    },
+    "titles": {
+        "whoami-title":"Who am I",
+        "abilities":"Abilities and Knowledge",
+        "languages-title":"Languages",
+        "studies":"Studies",
+        "experiences":"Experience",
+        "projects":"Projects",
+        "designs":"Designs"
+    },
+    "whoami":"I'm a Sevillian born in 2001. I studied Software Engineering Degree and a Masters Degree in Logic, Computing and Artificial Intelligence. Learning a bit more every day fills me with great joy and determination. I also have a great sense of responsibility and adaptability for every situation. I am specialised in Requirements Engineering, web development and Artificial Intelligence.",
+    "languages": {
+        "lang-info-es":"<span>native</span>",
+        "lang-info-en":"<span>C1</span>",
+        "lang-info-fr":"<span>basic</span>",
+        "lang-info-se":"<span>basic</span>"
+    },
+    "abilities": {
+        "programming_paradigms": [
+            "Python: Django, Jupyter, SageMath, Machine Learning, Deep Learning...",
+            "HTML, CSS, JavaScript",
+            "Java: SpringBoot",
+            "Scala: ApacheSpark",
+            "C, C++ (basic)"
+        ],
+        "os": [
+            "Windows",
+            "Linux"
+        ],
+        "dbms": [
+            "PostgreSQL",
+            "MySQL (+ MariaDB)",
+            "HBase",
+            "Git"
+        ],
+        "methodologies": [
+            "Scrum",
+            "PMBOKv6",
+            "Kanban"
+        ],
+        "design": [
+            "Blender",
+            "GIMP",
+            "Krita",
+            "Corel Paint Shop Pro 2021",
+            "Inkscape"
+        ]
+    },
+    "abilities_buttons": {
+        "programming_paradigms":"Programming paradigms",
+        "os":"Operating Systems",
+        "dbms":"Databases and Control Version Systems",
+        "methodologies":"Development Methodologies and Project Management",
+        "design":"Graphic and 3D design",
+        "abilities-description":"<span>Click on a category to see its elements...</span>"
+    },
+    "studies": [
+        {
+            "title": "Masters Degree in Logic, Computing and Artificial Intelligence",
+            "ini": "2023-10",
+            "fin": "2024-07",
+            "where": "Seville, Spain",
+            "institution": "University of Seville"
+        },
+        {
+            "title": "University Degree on Computer Engineering - Software Engineering",
+            "ini": "2019-09",
+            "fin": "2023-07",
+            "where": "Seville, Spain",
+            "institution": "University of Seville"
+        },
+        {
+            "title": "English Language Studies",
+            "ini": "2012-09",
+            "fin": "2019-06",
+            "where": "Seville, Spain",
+            "institution": "Centro de Idiomas Macarena"
+        }
+    ],
+    "experience":[
+        {
+            "title":"\"Destacando Talento\" Conference (Speaker)",
+            "type":"work",
+            "ini":"2024-05-23",
+            "fin":"2024-05-23",
+            "where":"Seville, Spain",
+            "institution": "Computer Engineering Technical School"
+        },
+        {
+            "title":"\"Real Maestranza de Caballería de Sevilla\" Award and \"Excmo. Ayuntamiento de Sevilla\" Award",
+            "type":"merit",
+            "ini":"2024-03",
+            "where":"Seville, Spain",
+            "institution": ""
+        },
+        {
+            "title":"IT Services at the Library of the University of Seville",
+            "type":"work",
+            "ini":"2023-10-01",
+            "fin":"2024-09-30",
+            "where":"Seville, Spain",
+            "institution": "Library of the University of Seville"
+        },
+        {
+            "title":"Best Academic Record at the Computer Engineering Technical School",
+            "type":"merit",
+            "ini":"2023-10",
+            "where":"Seville, Spain",
+            "institution": "University of Seville"
+        },
+        {
+            "title":"3rd Prize Digital CV (Diferénciate)",
+            "type":"merit",
+            "ini":"2023-09",
+            "where":"Seville, Spain",
+            "institution": "University of Seville"
+        },
+        {
+            "title":"Poster Winner of the \"Velá Solidaria 2023\"",
+            "type":"merit",
+            "ini":"2023-09",
+            "where":"Seville, Spain",
+            "institution": "General Community of Owners and Residents of Pino Montano"
+        },
+        {
+            "title":"Big Data",
+            "type":"work",
+            "ini":"2023-02-07",
+            "fin":"2023-07-13",
+            "where":"Seville, Spain",
+            "institution": "Ayesa"
+        }
+    ],
+    "projects": [
+        {
+            "title":"Magazine Renovation System for the US",
+            "when":"2024",
+            "technologies":[
+                "PHP",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description":"During my time at the Library of the University of Seville, I designed and helped develop the magazine renovation system. It made the management process easier for the Library and the answer process simpler for the faculties. This project helped reduce the time required for all the stakeholders.",
+            "img":"./src/assets/pictures/revistas_us00.jpg"
+        },
+        {
+            "title":"Fundación Reinicias",
+            "when":"2023",
+            "technologies":[
+                "Django (Python)",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description":"The project, designed exclusively for Fundación Reinicias, based in Granada (Spain), was also my Degree's Thesis. It is a web application divided into three sections: one for the team's management, another one for the patients and the last one for offering online courses. The main goal was making the information management easier for the organisation.",
+            "img":"./src/assets/pictures/reinicias00.jpg"
+        },
+        {
+            "title":"CFB API (Continuous Feedback)",
+            "when":"2023",
+            "technologies":[
+                "Django (Python)"
+            ],
+            "description":"It was a project for the subject Configuration Evolution and Management in my Degree. This API offers a simple way of linking a GitHub project with a Discord server to receive notifications about updates in the GitHub's repository, in a direct and convenient way.",
+            "img":"./src/assets/pictures/cfb00.jpg"
+        },
+        {
+            "title":"Petris",
+            "when":"2022",
+            "technologies":[
+                "SpringBoot (Java)",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description":"Petris is one of the first projects I took a part in. A team of 6 classmates transformed a tabletop game into an online, real-time web game.",
+            "img":"./src/assets/pictures/petris00.jpg"
+        },
+        {
+            "title":"panaLeria",
+            "when":"2021",
+            "technologies":[
+                "Python",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description":"My first project was made by myself for a subject in my Degree. It is a social media webpage called panaLeria, in which users can upload pictures and share them with the community, filter by tags, trends, and more functionalities.",
+            "img":"./src/assets/pictures/panaLeria00.jpg"
+        }
+    ],
+    "designs": [
+        {
+            "title":"Degree's Thesis Poster",
+            "when":"2024",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/PosterTFG.png",
+            "description":"Description of my work for the \"Destacando Talento\" Conference."
+        },
+        {
+            "title":"Poster for the Velá Pino Montano 2023",
+            "when":"2023",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/cartelVela.jpg",
+            "description":"Winner of the poster contest hosted by the General Community of Owners and Residents of Pino Montano."
+        },
+        {
+            "title":"Past future",
+            "when":"2023",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/BarquetaYGloboIslaMagica_Sueños.jpg"
+        },
+        {
+            "title":"¿Torre Sevilla?",
+            "when":"2023",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/torreSevilla.jpg"
+        },
+        {
+            "title":"Gomisaurus",
+            "when":"2022",
+            "type":"3D",
+            "img":"/src/assets/pictures/designs/3d/Gomisaurio.png",
+            "description":"My proposal for the Jam \"Make a Dinosaur 3\"."
+        },
+        {
+            "title":"A",
+            "when":"2022",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/A.png"
+        },
+        {
+            "title":"Blue Sky",
+            "when":"2021",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/EDIT_CIELO_AZUL1.jpg"
+        },
+        {
+            "title":"Render of a Dream",
+            "when":"2021",
+            "type":"3D",
+            "img":"/src/assets/pictures/designs/3d/sueño1.png"
+        }
+        
+    ]
+}

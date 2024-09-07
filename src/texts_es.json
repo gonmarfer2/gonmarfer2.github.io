@@ -1,5 +1,26 @@
 {
+    "menu": {
+        "menu-whoami":"Quién soy",
+        "menu-training":"Experiencia",
+        "menu-myprojects":"Proyectos",
+        "menu-mydesigns":"Diseños"
+    },
+    "titles": {
+        "whoami-title":"Quién soy",
+        "abilities":"Habilidades y conocimientos",
+        "languages-title":"Idiomas",
+        "studies":"Estudios",
+        "experiences":"Experiencia",
+        "projects":"Proyectos",
+        "designs":"Diseños"
+    },
     "whoami":"Soy un sevillano nacido en 2001, graduado en Ingeniería Informática del Software y en el Máster Universitario en Lógica, Computación e Inteligencia Artificial, con un gran entusiasmo por aprender cada día un poco más que el anterior. También poseo un gran sentido de la responsabilidad y aptitudes para adaptarme a cualquier situación. Mis especialidades son la Ingeniería de Requisitos, el desarrollo web y la Inteligencia Artificial.",
+    "languages": {
+        "lang-info-es":"<span>nativo</span>",
+        "lang-info-en":"<span>C1</span>",
+        "lang-info-fr":"<span>básico</span>",
+        "lang-info-se":"<span>básico</span>"
+    },
     "abilities": {
         "programming_paradigms": [
             "Python: Django, Jupyter, SageMath, Machine Learning, Deep Learning...",
@@ -31,13 +52,21 @@
             "Inkscape"
         ]
     },
+    "abilities_buttons": {
+        "programming_paradigms":"Paradigmas de programación",
+        "os":"Sistemas operativos",
+        "dbms":"Bases de datos y control de versiones",
+        "methodologies":"Metodologías de desarrollo y gestión de proyectos",
+        "design":"Diseño gráfico y 3D",
+        "abilities-description":"<span>Clique en una categoría para ver sus elementos...</span>"
+    },
     "studies": [
         {
-            "title": "Estudios de lengua inglesa",
-            "ini": "2012-09",
-            "fin": "2019-06",
+            "title": "Máster Universitario en Lógica, Computación e Inteligencia Artificial",
+            "ini": "2023-10",
+            "fin": "2024-07",
             "where": "Sevilla, España",
-            "institution": "Centro de Idiomas Macarena"
+            "institution": "Universidad de Sevilla"
         },
         {
             "title": "Grado en Ingeniería Informática - Ingeniería del Software",
@@ -47,12 +76,13 @@
             "institution": "Universidad de Sevilla"
         },
         {
-            "title": "Máster Universitario en Lógica, Computación e Inteligencia Artificial",
-            "ini": "2023-10",
-            "fin": "2024-07",
+            "title": "Estudios de lengua inglesa",
+            "ini": "2012-09",
+            "fin": "2019-06",
             "where": "Sevilla, España",
-            "institution": "Universidad de Sevilla"
+            "institution": "Centro de Idiomas Macarena"
         }
+        
     ],
     "experience":[
         {
@@ -118,7 +148,8 @@
                 "CSS",
                 "JavaScript"
             ],
-            "description":"Durante mi estancia en la Biblioteca de la Universidad de Sevilla, diseñé y ayudé a desarrollar el sistema de renovación de revistas de la Universidad, para facilitar la gestión por parte de la Biblioteca y simplificando el proceso de respuesta de los departamentos, reduciendo en gran medida el tiempo necesario para todos los interesados."
+            "description":"Durante mi estancia en la Biblioteca de la Universidad de Sevilla, diseñé y ayudé a desarrollar el sistema de renovación de revistas de la Universidad, para facilitar la gestión por parte de la Biblioteca y simplificando el proceso de respuesta de los departamentos, reduciendo en gran medida el tiempo necesario para todos los interesados.",
+            "img":"./src/assets/pictures/revistas_us00.jpg"
         },
         {
             "title":"Fundación Reinicias",
