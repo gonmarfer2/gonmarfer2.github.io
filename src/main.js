@@ -102,6 +102,11 @@ for(let lang of langSelectors) {
     })
 }
 
+// Expand menu
+document.getElementById('mobile-menu-expand').addEventListener('click', function(event) {
+    document.getElementById('menu-list').classList.toggle('active');
+});
+
 get_json(`src/texts_${localStorage.getItem("lang")}.json`)
 .then(texts => {
     load_titles(texts.menu);

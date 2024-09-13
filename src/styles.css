@@ -83,6 +83,8 @@ body,html {
     z-index: 999;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    min-height: 4rem;
 }
 
 #menu ul {
@@ -90,6 +92,7 @@ body,html {
     gap: 1rem;
     list-style-type: none;
     padding: 0 2rem;
+    margin: 0;
 }
 
 #menu-list li {
@@ -119,6 +122,10 @@ body,html {
 
 #lang-selection img {
     max-height: 2rem;
+}
+
+#mobile-menu-expand {
+    display: none;
 }
 
 /* HERO */
