@@ -64,6 +64,7 @@
         {
             "title": "Programa de Doctorado en Ingeniería Informática",
             "ini": "2024-10",
+            "fin":"",
             "where": "Sevilla, España",
             "institution": "Universidad de Sevilla"
         },
@@ -243,12 +244,6 @@
             "when":"2023",
             "type":"2D",
             "img":"/src/assets/pictures/designs/BarquetaYGloboIslaMagica_Sueños.jpg"
-        },
-        {
-            "title":"¿Torre Sevilla?",
-            "when":"2023",
-            "type":"2D",
-            "img":"/src/assets/pictures/designs/torreSevilla.jpg"
         },
         {
             "title":"Gomisaurio",
