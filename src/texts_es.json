@@ -62,6 +62,12 @@
     },
     "studies": [
         {
+            "title": "Programa de Doctorado en Ingeniería Informática",
+            "ini": "2024-10",
+            "where": "Sevilla, España",
+            "institution": "Universidad de Sevilla"
+        },
+        {
             "title": "Máster Universitario en Lógica, Computación e Inteligencia Artificial",
             "ini": "2023-10",
             "fin": "2024-07",
@@ -198,6 +204,26 @@
         }
     ],
     "designs": [
+        {
+            "title":"Escultura para la Biblioteca de la Universidad de Sevilla",
+            "when":"2024",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/FotoEsculturaBibliotecaUS.jpg",
+            "description": "Antes de terminar mi periodo de beca en la Biblioteca, decidí reciclar materiales de aquí y de allí para crear una obra que muestra la actualidad de una biblioteca, que combina el conocimiento tradicional, en libros, con las tendencias tecnológicas modernas que están modificándolas irremediablemente."
+        },
+        {
+            "title":"Póster \"Tengo planta nueva\"",
+            "when":"2024",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/PosterPlanta.png"
+        },
+        {
+            "title":"Póster Fan \"El escudero valiente\"",
+            "when":"2024",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/PosterEscuderoValiente.png",
+            "description":"Póster realizado en honor al videojuego \"El escudero valiente\"."
+        },
         {
             "title":"Póster TFG",
             "when":"2024",

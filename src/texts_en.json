@@ -62,6 +62,12 @@
     },
     "studies": [
         {
+            "title": "PhD Programme in Computer Engineering",
+            "ini": "2024-10",
+            "where": "Seville, Spain",
+            "institution": "University of Seville"
+        },
+        {
             "title": "Masters Degree in Logic, Computing and Artificial Intelligence",
             "ini": "2023-10",
             "fin": "2024-07",
@@ -197,6 +203,26 @@
         }
     ],
     "designs": [
+        {
+            "title":"Sculpture for the Library of the University of Seville",
+            "when":"2024",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/FotoEsculturaBibliotecaUS.jpg",
+            "description": "Before ending my internship in the Library of the USE, I decided to recycle some materials to create a piece that reflects the actuality of a current library: a mix of traditional knowledge from books with trendy technologies that are irremediably changing them."
+        },
+        {
+            "title":"Poster \"Tengo planta nueva\" (I have got a new plant)",
+            "when":"2024",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/PosterPlanta.png"
+        },
+        {
+            "title":"Fan-made Poster \"The Plucky Squire\"",
+            "when":"2024",
+            "type":"2D",
+            "img":"/src/assets/pictures/designs/PosterEscuderoValiente.png",
+            "description":"In honour of the video game \"The Plucky Squire\"."
+        },
         {
             "title":"Degree's Thesis Poster",
             "when":"2024",
